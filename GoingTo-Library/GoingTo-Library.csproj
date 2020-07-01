@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>GoingTo_Library</RootNamespace>
+    <PackageId>GoingTo.Patterns.Library</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Biblioteca de patrones para solucion GoingTo</Description>
+  </PropertyGroup>
+
+</Project>
