@@ -1,12 +1,12 @@
-﻿using System;
+﻿using GoingTo_Library.State;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace GoingTo_Library.Factory
 {
-    public abstract class TravelableFactory
+    public abstract class TravelableFactory<T>
     {
-        public abstract Travelable CreateTravelable();
-        public abstract void SetState(IState<Travelable> state);
+        public abstract Travelable CreateTravelable(T t);
     }
 }
