@@ -5,9 +5,9 @@ using System.Text;
 
 namespace GoingTo_Library.Factory
 {
-    public abstract class Travelable
+    public class Travelable
     {
-        public abstract string StateName { get; set; }
+        public string StateName { get; set; }
 
     }
 }

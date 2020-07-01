@@ -6,6 +6,7 @@
     <PackageId>GoingTo.Patterns.Library</PackageId>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>Biblioteca de patrones para solucion GoingTo</Description>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
