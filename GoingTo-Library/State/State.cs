@@ -8,5 +8,6 @@ namespace GoingTo_Library.State
     {
         void Past(T trip);
         void Future(T trip);
+        void Neutral(T trip);
     }
 }
